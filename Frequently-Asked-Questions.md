@@ -187,3 +187,9 @@ Run it with:
 ```
 sbt 'run-main intro.Main'
 ```
+
+### Why doesn't Chisel tell me which wires aren't connected?
+
+As of commit c313e137d4e562ef20195312501840ceab8cbc6a it can!
+Please visit the wiki page [Unconnected Wires](Unconnected-Wires.md) for details.
+
