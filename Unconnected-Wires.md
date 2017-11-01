@@ -6,7 +6,7 @@ This made it difficult to detect cases where output signals were never driven.
 Chisel now supports a `DontCare` element, which may be connected to an output signal, indicating that that signal is intentionally not driven.
 Unless a signal is driven by hardware or connected to a `DontCare`, Firrtl will complain with a "not fully initialized" error.
 
-###API
+### API
 
 Output signals may be connected to DontCare, generating a `is invalid` when the corresponding firrtl is emitted.
 ```scala
